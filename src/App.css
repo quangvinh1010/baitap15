@@ -1,0 +1,155 @@
+.wrapper h1 {
+  text-align: center;
+}
+.wrapper h3 {
+  color: black;
+  text-align: center;
+ font-size: 30px;
+}
+.container-fluid {
+  max-width: 1200px;
+  margin: auto;
+}
+.container-edit {
+  width: auto;
+  height: auto;
+  background-color: aquamarine;
+  padding: 10px;
+  margin-top: auto;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.container-app{
+  width:auto;
+  height: auto;
+  padding: 10px;
+  margin-top: auto;
+  border-radius: 20px;
+  border: 1px solid black;
+  align-items: center;
+}
+
+input[type="text" i] {
+  width: 60%;
+  height: 25px;
+  border-radius: 4px;
+  color: black;
+  display: flex;
+}
+form input[type="text"]{
+  margin-left: 20%;
+}
+input[type="submit" i] {
+  width: 15%;
+  height: 32px;
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 4px;
+  background-color: rgb(255, 7, 7);
+  color: antiquewhite;
+ }
+.book-list {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+.book-list .image{
+    padding: 10px 10px 10px 10px;
+    border: 2px solid black;
+    height: 300px;
+    border-radius: 10px;
+}
+.delete{
+  width: 45%;
+  margin: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+.container{
+  background-color: rgba(143, 216, 167, 0.625);
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top:10px;
+  width: auto;
+  height: auto;
+}
+
+.text{
+  text-align: center;
+}
+.create{
+  align-items: center;
+}
+.container p{
+  text-align: center;
+}
+
+.pagination li{
+  text-decoration: none;
+  list-style: none;
+  margin: 5px;
+}
+.pagination{
+  display: flex;
+  margin: auto;
+}
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  text-decoration: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.page-link:hover {
+  text-decoration: underline;
+}
+.pagination-info span {
+  font-size: large;
+  color: grey;
+}
+.pagination-info{
+  margin-left: 45%;
+}
+.pagination-info button{
+  margin: 5px;
+}
+ .search {
+  width: 5%;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 100px 0 100px;
+ }
+input.search {
+  width: 70%;
+  text-align: center;
+}
+label {
+  font-size: 30px;
+  margin-left: 250px;
+}
+.cancel{
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: rgb(255, 7, 7);
+  color: antiquewhite;
+}
